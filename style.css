@@ -1,0 +1,90 @@
+
+  
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./received_333413647398719.jpeg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: 5rem;
+    color: white;
+    
+}
+
+.countdown-container {
+    background-color: rgba(59, 58, 58, 0.753);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+    color: rgb(255, 255, 255);
+}
+
+.countdown{
+    text-align: center;
+    color: white;
+}
+.wish{
+    color: white;
+    background-color: rgba(59, 58, 58, 0.753);
+    padding-left: 1rem;
+    padding-right: 1rem ;
+    font-size: 3rem;
+}
+.countdown-el span {
+    font-size: 1.3rem;
+
+}
+@media only screen and (max-width: 620px) {
+    h1{
+        font-size: 2rem;
+    }
+    .big-text{
+        font-size: 3rem;
+    }
+    .wish{
+        font-size:1.5rem;
+    }
+}
+@media only screen and (max-width: 390px) {
+    h1{
+        font-size: 1.5rem;
+    }
+    .big-text{
+        font-size: 1rem;
+    }
+    .wish{
+        font-size: 0.7 rem;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    .big-text{
+        font-size: 2rem;
+    }
+}
